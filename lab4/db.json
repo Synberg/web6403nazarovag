@@ -1,0 +1,33 @@
+{
+  "team": [
+    {
+      "name": "Иван Иванов",
+      "position": "Директор",
+      "experience": 10
+    },
+    {
+      "name": "Анна Петрова",
+      "position": "Ветеринар",
+      "experience": 5
+    },
+    {
+      "name": "Елена Смирнова",
+      "position": "Менеджер по связям с клиентами",
+      "experience": 3
+    }
+  ],
+  "messages": [
+    {
+      "id": "149c",
+      "name": "a",
+      "email": "test@test.test",
+      "message": "asd"
+    },
+    {
+      "id": "01f6",
+      "name": "test",
+      "email": "asdasd@a.u",
+      "message": "asd"
+    }
+  ]
+}
