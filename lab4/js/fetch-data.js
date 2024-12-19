@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         const response = await fetch('http://localhost:3000/team');
         if (!response.ok) throw new Error("Ошибка загрузки данных!");
 
-        const team = await response.json();
+        const data = await response.json();
+	const team = data.data;
         teamTable.innerHTML = ''; // Очистить сообщение о загрузке
 
         // Создаем заголовок таблицы
